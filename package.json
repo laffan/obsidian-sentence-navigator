@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-sentence-navigator",
+  "version": "1.0.0",
+  "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "author": "Nate Laffan",
+  "license": "MIT",
+  "devDependencies": {
+    "@codemirror/state": "6.5.0",
+    "@codemirror/view": "6.38.6",
+    "@types/node": "^25.0.3",
+    "codemirror": "^6.0.2",
+    "esbuild": "0.27.2",
+    "obsidian": "^1.11.0",
+    "tslib": "2.8.1",
+    "typescript": "5.9.3"
+  }
+}
