@@ -4,7 +4,7 @@ A series of keyboard shortcuts to select, edit and move whole sentences around a
 
 ## Installation
 
-1. Download the zipped release file and unzip it. 
+1. Download the zipped [release](https://github.com/laffan/obsidian-sentence-navigator/releases) file and unzip it. 
 2. In Obsidian, navigate to Settings > Community Plugins. 
 3. Click the folder icon above the "Installed plugins" list.  
 4. Drag the unzipped release in to "plugins" folder.
